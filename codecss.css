@@ -1,0 +1,208 @@
+#sidebar {
+  height: 480px;
+  background-color: silver;
+  border: 2px solid white;
+}
+#content {
+  height: 480px;
+  background-color: silver;
+  border: 2px solid white;
+}
+#footer {
+  background-color: silver;
+}
+body {
+  background-image: url("dna.jpg");
+  background-size: cover;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  
+}
+#form {
+  width: 80%;
+  height: 70%;
+  border: 3px solid white;
+  margin: 0 auto;
+  margin-top: 100px;
+  /* background: ; */
+  border-radius: 5px;
+  padding: 10px;
+}
+
+#form_submit_data {
+  color: white;
+  width: 50%;
+  border: 3px solid rgb(181, 181, 181);
+  margin: 100px auto;
+  /* margin-top: 100px; */
+  background-color: #3d4767;
+  opacity: 0.9;
+  border-radius: 10px;
+  padding: 10px;
+}
+#form_login {
+  color: black;
+  width: 25%;
+  /* background-image: url("3.jpg"); */
+  border: 3px solid rgb(181, 181, 181);
+  /* margin: 100px auto;  */
+  margin-top: 100px;
+  background-color: #3d4767;
+  opacity: 0.9;
+  border-radius: 10px;
+  padding: 10px;
+  height: 450px;
+}
+#form_fun {
+  color: white;
+  width: 50%;
+  /* background-image: url("3.jpg"); */
+  border: 3px solid rgb(181, 181, 181);
+  /* margin: 100px auto;  */
+  margin-top: 100px;
+  margin-left: 380px;
+  background-color: #3d4767;
+  opacity: 0.9;
+  border-radius: 10px;
+  padding: 10px;
+  height: 500px;
+}
+
+#form_sign_up {
+  color: black;
+  width: 25%;
+  border: 3px solid rgb(181, 181, 181);
+  background-color: #3d4767;
+  opacity: 0.9;
+  border-radius: 10px;
+  padding: 10px;
+  height: 700px;
+  margin-top: 10px;
+}
+
+.col {
+  color: white;
+}
+.required {
+  font-size: 1em;
+  color: red;
+}
+.formm {
+  /* background-color: ; */
+  opacity: 0.8;
+}
+.click {
+  color: darkblue;
+  background-color: darkblue;
+}
+.form__title {
+  color: white;
+  font-weight: bold;
+}
+.basebutton {
+  float: right;
+}
+#browse_your_seq {
+  background-color: rgb(154, 154, 171);
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 15px;
+  box-shadow: 0px 0px 2px 2px rgb(154, 154, 171);
+}
+
+#perform {
+  background-color: rgb(154, 154, 171);
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 15px;
+  box-shadow: 0px 0px 2px 2px rgb(154, 154, 171);
+  width: 120px;
+}
+
+#browse_app_seq {
+  float: right;
+  background-color: rgb(154, 154, 171);
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+  margin-left: 410px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 15px;
+  box-shadow: 0px 0px 2px 2px rgb(154, 154, 171);
+}
+#reset {
+  background-color: rgb(154, 154, 171);
+  border-radius: 10px;
+  /* color: white ; */
+
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 19px;
+  /* border-color: white;  */
+  /* padding: 10px;  */
+  /* padding-top: 1px; */
+  height: 30px;
+  width: 120px;
+}
+#submit_data {
+  background-color: rgb(154, 154, 171);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 25px;
+
+  border-radius: 10px;
+  width: 120px;
+  text-align: center;
+  color: white;
+  box-shadow: 0px 0px 2px 2px rgb(154, 154, 171);
+}
+#logout {
+  background-color: rgb(154, 154, 171);
+  color: white;
+  padding: 8px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 2px 2px rgb(154, 154, 171);
+}
+.input_text {
+  padding: 10px;
+  width: 300px;
+  border-radius: 10px;
+}
+/* #reset_login
+{
+	background-color: gray;
+	color: orangered;
+	padding: 10px;
+	width: 250px;
+	border-radius: 10px;
+}  */
+#sign {
+  background-color: rgb(32, 137, 202);
+  width: 300px;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+}
+#text {
+  font-size: 20px;
+  color: white;
+}
+.radio_gender {
+  padding-left: 20px;
+}
+.label_gender {
+  color: white;
+  font-size: 15px;
+  /* float: left; */
+}
+#reset_sign_up {
+  /* padding-left: 10px; */
+  background-color: rgb(154, 154, 171);
+  color: white;
+  width: 150px;
+  border-radius: 5px;
+  font-size: 15px;
+}
